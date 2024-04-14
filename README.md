@@ -13,6 +13,6 @@ Note that each directory currently has at least one file in it to ensure that gi
 
 To try the 2-player robots soccer game in Gazebo using ROS2, use the command: `ros2 launch my_bot soccer_game.launch.py world:=<soccer.world path>`
 
-To control the 2 robots you may either use the `teleop_twist_keyboard` or `teleop_twist_joy` nodes depending on your preference, don't forget to add `--ros-args --remap cmd_vel:=/<bot1 or bot2 for both robots>/cmd_vel`
+To control the 2 robots you may either use the `teleop_twist_keyboard` or `teleop_twist_joy` nodes depending on your preference, don't forget to remap `--ros-args --remap cmd_vel:=/<bot1 or bot2 for both robots>/cmd_vel`
 
 ![Screenshot from 2024-04-12 23-02-58](https://github.com/MennaMagdie/my_bot/assets/73966691/6ba4391f-c556-42d2-81fe-69d1eb74a5f8)
